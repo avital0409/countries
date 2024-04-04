@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="This is a simple project to display countries of the world with the ability to search for the country you want, be side the ability to show countries by continent."
-    />
-    <meta name="author" content="Mohamed Aridah" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Fontawesome Library -->
-    <link
-      rel="stylesheet"
-      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
-    />
-    <!-- Shared CSS Styles File -->
-    <link rel="stylesheet" href="./css/common.css" />
-    <!-- Page Custom CSS File -->
-    <link rel="stylesheet" href="./css/details.css" />
-    <title>Details Page</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+        content="This is a simple project to display countries of the world with the ability to search for the country you want, be side the ability to show countries by continent." />
+  <meta name="author" content="Mohamed Aridah" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+        rel="stylesheet" />
+  <!-- Fontawesome Library -->
+  <link rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" />
+  <!-- Shared CSS Styles File -->
+  <!-- Shared CSS Styles File -->
+  <link rel="stylesheet" href="./css/common.css" />
+  <!-- Page Custom CSS File -->
+  <link rel="stylesheet" href="./css/details.css" />
+  <title>Details Page</title>
+</head>
   <body>
     <!-- Loader -->
     <div class="loader">
@@ -38,8 +33,7 @@
     <button
       type="button"
       aria-label="Scroll Top Button"
-      class="button scroll-top flex flex-ai-c flex-jc-c scale-effect"
-    >
+      class="button scroll-top flex flex-ai-c flex-jc-c scale-effect">
       <i class="fa-regular fa-chevron-up icon"></i>
     </button>
     <!-- Header -->
@@ -53,8 +47,7 @@
         <button
           type="button"
           aria-label="Theme Switcher Button"
-          class="theme-toggle flex flex-jc-sb flex-ai-c"
-        >
+          class="theme-toggle flex flex-jc-sb flex-ai-c">
           <i class="fa-regular fa-moon theme-icon"></i>
           <span class="theme-text">Dark Mode</span>
         </button>
@@ -74,7 +67,7 @@
         <section class="country-details"></section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+    <script src="./scripts/countries-api.js"></script>
+    <script src="./scripts/details.js"></script>
   </body>
 </html>
